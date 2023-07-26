@@ -27,8 +27,8 @@ ES_INDEX_NAME = "YOUR ELASTICSEARCH INDEX NAME" or args.es_index
 
 
 es = Elasticsearch(
-    cloud_id="My_deployment:dXMtY2VudHJhbDEuZ2NwLmNsb3VkLmVzLmlvJDk2NTU5N2I2YmY4YTRmZThiZmMwMDgzZTc2ZTFlZjhlJDZiZTg4NGRhZDI2NzRkNWU4NGQ4Y2JlMjA4OTBmNThi",
-    basic_auth=("elastic", "frnh2u9kvswtX7nDfUel6iAI")
+    cloud_id=ES_CLOUD_ID,
+    basic_auth=ES_BASIC_AUTH
 )
 
 DB_NAME = "YOUR DATABASE NAME"
