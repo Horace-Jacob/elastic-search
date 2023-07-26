@@ -1,0 +1,4 @@
+CREATE TABLE Test (
+    id SERIAL PRIMARY KEY,
+    about VARCHAR
+);
