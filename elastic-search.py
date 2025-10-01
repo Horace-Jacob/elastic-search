@@ -1,7 +1,9 @@
 from elasticsearch import Elasticsearch
 import argparse
 
-
+"""
+this is elastic search example
+"""
 def parse_args():
     parser = argparse.ArgumentParser(
         description="Listen for PostgreSQL notifications and sync data to Elasticsearch.")
